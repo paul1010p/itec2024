@@ -29,7 +29,10 @@
 <link href="https://fonts.googleapis.com/css2?family=Antic+Slab&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-      
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+
 
 <script src="java.js"></script>
 
@@ -48,14 +51,18 @@
 
 
 
-    <h1>Date de contact</h1>
+      <div class="dprim">
+
+    <h1 id="dc">Date de contact</h1>
+
+ <div class="d">
 
     <div class="d1">
 
       <h1>Telefon</h1>
       <h2> 0256 493 451</h2>
 
-      <i class="fa fa-phone" style="font-size:36px"></i>
+      <img src="./imgs/phone.gif" alt="" width="100px" height="100px">
 
 
     </div>
@@ -63,9 +70,10 @@
     <div class="d1">
 
       <h1>Email</h1>
-      <h2> director@moisiltm.ro secretariat@moisiltm.ro</h2>
+      <h2> director@moisiltm.ro</h2>
 
-      <i class="fa fa-phone" style="font-size:36px"></i>
+      <!-- <i class="fa fa-envelope" style="font-size:80px"></i> -->
+      <img src="./imgs/email.gif" alt="" width="150px" height="150px">
 
 
     </div>
@@ -73,15 +81,16 @@
 
     <div class="d1">
 
-      <h1>Telefon</h1>
-      <h2>07256493451</h2>
+      <h1>Locatie</h1>
+      <h2>Str. Ghirlandei Nr.4, Timişoara, Timiş</h2>
 
-      <i class="fa fa-phone" style="font-size:36px"></i>
-
+<img src="./imgs/location.gif" alt="" width="100px" height="100px">
 
     </div>
 
+  </div>
 
+</div>
 
 
 
@@ -90,11 +99,45 @@
 <style>
   .d1{
     border: 2px solid;
-    width: 200px;
+    width: 420px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    font-family: "Kanit", sans-serif;
+    margin-bottom: 100px;
+    border-radius: 60px;
+    padding: 40px;
+
+  }
+
+  i{
+    color: #1746A2;
+  }
+
+  .d{
+
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        /* border: 2px solid; */
+
+  }
+
+  #dc{
+    text-align: center;
+    font-family: "Kanit", sans-serif;
+    font-size: 45px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+
+  }
+
+  .dprim{
+
+    border: 2px solid;
+
+    margin-top: 150px;
   }
 </style>
 
@@ -116,14 +159,14 @@
 
             <div class="form-group">
               <label class="aaa" for="phone">Telefon:</label>
-              <input type="tel" id="phone" name="phone" required /><br><br>
+              <input type="tel" id="phone" name="phone"  required /><br><br>
             </div>
 
 
             <div class="form-group">
 
               <label class="aaa" for="email">E-mail:</label>
-              <input type="email" id="email" name="email" required /><br><br>
+              <input type="email" id="email" name="email"  required /><br><br>
             </div>
 
 
@@ -131,7 +174,7 @@
 
 
               <label class="aaa" for="password">Parola:</label>
-              <input type="password" id="password" name="password" required /><br><br>
+              <input type="password" id="password" name="password"  required /><br><br>
             </div>
 
 
@@ -144,10 +187,10 @@
 
 
             <div class="form-group">
-              <label class="aaa" for="county">Tutore:</label>
-              <select id="county" name="county" required>
-                <option value="Becicherecu Mic">Parinte</option>
-                <option value="Buziaș">Elev</option>
+              <label class="aaa" for="parinte">Parinte/Elev:</label>
+              <select id="parinte" name="parinte" required>
+                <option value="x">Parinte</option>
+                <option value="x">Elev</option>
                
               </select>
             </div>
