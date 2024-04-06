@@ -96,3 +96,13 @@ body{
 
 } */
 
+.demo {
+  opacity: 0.6;
+  width: full;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
