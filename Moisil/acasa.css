@@ -2,8 +2,6 @@ body{
 
     padding: 0;
     margin: 0;
-    
-    
   }
   
   ul {
@@ -96,13 +94,14 @@ body{
 
 } */
 
-.demo {
+.demo1 {
+  mar
   opacity: 0.6;
-  width: full;
+  width: 2000px;
 }
 
 .active,
-.demo:hover {
+.demo1:hover {
   opacity: 1;
 }
 
