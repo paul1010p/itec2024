@@ -29,6 +29,125 @@
         <li class="mm"><a  href="acasa.html">Acasa</a></li>
       </ul>
 
+      
+
+
+   
+    
+
+<div class="bigbox">
+
+
+      <div class="dvnstr">
+
+
+          <h1 id="H1">Divizia noastra:</h1>
+
+        <h1 id="H2">"Înălţimile se ating prin strădanie"</h1>
+
+      </div>
+
+
+
+             <div class="descriere">
+                
+                <img src="./imgs/ggmsl1.jpg" alt="" id="GRIGORE-MOISIL"  onclick="schimbare(this)">
+
+                <h1>GRIGORE MOISIL (10 ianuarie 1906, Tulcea-21 mai 1973, Ottawa, Canada)
+
+                    <p>A fost cel mai important matematician roman, considerat parintele informaticii romanesti. <br>
+                        
+                        A avut contributii remarcabile la dezvoltarea informaticii si la formarea primelor  generatii <br> de informaticieni. I-a fost acordat Computer Pioneer Award al societatii IEEE in iunie 1996 <br>
+                        Viata sa dedicata matematicii si informaticii l-a consacrat ca un extraordinar om de stiinta. <br> De asemenea era inzestrat cu un deosebit simt al umorului. A fost membru al Academiei <br> Romane, al Academiei din Bologna si al Institutului International de Filosofie.</p>
+                </h1>
+
+             </div>
+
+             <style>
+
+
+                .descriere{
+
+                    display: flex;
+                    justify-content: center;
+                    gap: 50px;
+                    align-items: center;
+                    border: 2px solid;
+
+                }
+
+                #GRIGORE-MOISIL{
+
+                    border-radius: 60px;
+                    cursor: pointer;
+                    transition: transform 0.3 ease;
+                }
+
+                #GRIGORE-MOISIL:hover{                    
+                    transform: translateY(-10px);
+
+                }
+        
+                .full{
+/*     
+      border: 2px solid; */
+      cursor: zoom-out;
+      display: block;
+      width: 500px;
+      height: 500px;
+      position: fixed;
+      left: 650px;
+      top:250px;
+      background-color:white;
+    
+    }
+    
+
+             </style>
+
+
+<script>
+             
+    function schimbare(element)
+    {
+     element.classList.toggle("full");
+    }
+
+
+
+</script>
+
+
+
+
+
+
+      
+      <style>
+
+             #H1{
+
+                   font-size: 50px;
+
+             }
+
+             .dvnstr{
+
+                 border: 2px solid;
+                 margin-top: 100px;
+                 width: 500px;
+                 border-radius: 60px;
+                 display: flex;
+                 justify-content: center;
+                 flex-direction: column;
+                 align-items: center;
+                 padding: 12px;
+                 
+
+             }
+
+      </style>
+
 
     
 </body>
