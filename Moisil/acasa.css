@@ -1,6 +1,7 @@
 body {
   /* background: url("./imgs/moisilv2.jpg") no-repeat center fixed */
   /* background-color:black; */
+  position: relative;
   padding: 0;
   margin: 0;
   width: 100%;
@@ -12,7 +13,8 @@ body {
 }
 
 .layout {
-  background-image: url("./imgs/fundal.jpg");
+  background-image: url("./imgs/smec.jpg");
+  height: 1000px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
