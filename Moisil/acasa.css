@@ -95,7 +95,7 @@ body{
 } */
 
 .demo1 {
-  mar
+  margin: 0;
   opacity: 0.6;
   width: 2000px;
 }
