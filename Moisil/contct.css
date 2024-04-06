@@ -1,0 +1,102 @@
+
+  
+  .container2 {
+  width: 500px;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.ccc {
+  text-align: center;
+  color: #648e79;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.aaa {
+  display: block;
+  margin-bottom: 5px;
+  color: #59d79a;
+}
+
+input[type="tel"],
+input[type="email"],
+input[type="password"],
+select {
+  width: 300px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.bbb {
+  background-color: #59d79a;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button.bbb:hover {
+  background-color: #648e79;
+}
+.story,
+  .vision,
+  .mission {
+    margin-bottom: 30px;
+  }
+  
+  .story h2,
+  .vision h2,
+  .mission h2 {
+    color: #648e79;
+  }
+
+  .contact-details {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #59d79a;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contactez {
+    color: #fff;
+    background-color: #648e79;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.contact-info {
+    margin-top: 20px;
+}
+
+.contact-info p {
+    margin-bottom: 5px;
+}
+
+.contact-info i {
+    margin-right: 5px;
+}
+.main-container1 {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  text-align: center;
+  color: #333;
+}

@@ -14,6 +14,7 @@
     
     
     <link rel="stylesheet" href="acasa.css">
+    <link rel="stylesheet" href="contct.css">
 
 
       
@@ -29,7 +30,39 @@
         <li class="mm"><a  href="acasa.html">Acasa</a></li>
       </ul>
 
-
+      <center>
+        <div class="container2">
+          <h2 class="ccc">Formular Înregistrare</h2>
+          <form id="formid" name="submit-to-google-sheet">
+            <div class="form-group">
+              <label class="aaa" for="phone">Telefon:</label>
+              <input type="tel" id="phone" name="phone" required /><br><br>
+            </div>
+            <div class="form-group">
+              <label class="aaa" for="email">E-mail:</label>
+              <input type="email" id="email" name="email" required /><br><br>
+            </div>
+            <div class="form-group">
+              <label class="aaa" for="password">Parola:</label>
+              <input type="password" id="password" name="password" required /><br><br>
+            </div>
+            <div class="form-group">
+                <label class="aaa" for="mesaj">Probleme: (optional)</label>
+                <input type="tel" id="mesaj" name="mesaj" ><br><br>
+              </div>
+            <div class="form-group">
+              <label class="aaa" for="county">Județul:</label>
+              <select id="county" name="county" required>
+                <option value="Becicherecu Mic">Parinte</option>
+                <option value="Buziaș">Elev</option>
+               
+              </select>
+            </div>
+            <br><br>
+            <button class="bbb" type="submit">Înregistrare</button>
+            
+          </form>
+        </div>
     
 </body>
 </html>
