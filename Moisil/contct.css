@@ -8,12 +8,17 @@
   border-radius: 10px;
   box-shadow: 12px 20px 20px rgba(0, 0, 0, 0.452);
   /* box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); */
+
+  background-color: rgb(255, 238, 208);
    
   border: 2px;
   border-right: none;
   border-bottom: none;
   border-left: 2px solid #333;
   border-top: 1px solid #333;
+
+  position: absolute;
+right: 1410px;
 
 
 }
