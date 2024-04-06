@@ -1,12 +1,16 @@
-* {box-sizing:border-box}
+* {
+  box-sizing: border-box;
+}
 
-#poze{
-    border: 1remsolid black;
+.personal{
+    border: 5px black;
+    border-radius: 20%;
 }
 
 .slideshow-container {
-  width: 1200px;
+  width: 800px;
   position: center;
+  margin: none;
 }
 
 .mySlides {
@@ -18,10 +22,10 @@
   border-radius: 3px 0 0 3px;
 }
 
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
 }
-
 
 .fade {
   animation-name: fade;
@@ -29,6 +33,10 @@
 }
 
 @keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
 }
