@@ -10,7 +10,8 @@
   box-shadow: 12px 20px 20px rgba(0, 0, 0, 0.452);
   /* box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); */
 
-  background-color: rgb(255, 238, 208);
+  /* background-color: rgb(255, 238, 208); */
+  border-radius: 60px;
    
   border: 2px;
   border-right: none;
