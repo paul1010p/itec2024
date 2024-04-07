@@ -1,168 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Liceul Teoretic Grigore Moisil</title>
+  </head>
+  <body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Bree+Serif&family=Lora:ital,wght@0,661;1,661&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Antic+Slab&display=swap"
+      rel="stylesheet"
+    />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Bree+Serif&family=Lora:ital,wght@0,661;1,661&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Antic+Slab&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Antic+Slab&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Antic+Slab&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    
-    <link rel="stylesheet" href="acasa.css">
+    <link rel="stylesheet" href="acasa.css" />
 
-
-      
     <ul>
-       
+      <img src="./imgs/idee.png" width="260px" height="59px" alt="" />
+      <li class="mm"><a href="contact.html">Contacteaza-ne</a></li>
+      <li class="mm"><a href="desprenoi.html">Despre noi</a></li>
+      <li class="mm"><a href="galerie.html">Galerie foto</a></li>
+      <li class="mm"><a href="biblioteca.html">Biblioteca</a></li>
+      <li class="mm"><a href="orar2024.html">Orare 2024</a></li>
+      <li class="mm"><a href="acasa.html">Acasa</a></li>
+    </ul>
 
-        <img src="./imgs/idee.png" width="260px" height="59px" alt="">        
-        <li class="mm"><a href="contact.html">Contacteaza-ne</a></li>
-        <li class="mm"><a href="desprenoi.html">Despre noi</a></li>
-         <li class="mm"><a href="galerie.html">Galerie foto</a></li> 
-        <li class="mm"><a href="biblioteca.html">Biblioteca</a></li>
-        <li class="mm"><a href="orar2024.html">Orare 2024</a></li>
-        <li class="mm"><a  href="acasa.html">Acasa</a></li>
-      </ul>
+    <div class="bigbox">
+      <h1 id="H1">Divizia noastra:</h1>
 
-      
+      <h1 id="H2">"Înaltimile se ating prin stradanie"</h1>
+    </div>
+    <br /> <br />
 
+    <style>
+      .bigbox {
+        border: 2px solid;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 60px;
+        margin-top: 110px;
+        margin-bottom: 200px;
+        font-family: "Kanit", sans-serif;
+        width: 700px;
+        position: relative;
+        left: 700px;
+      }
+      #H2 {
+        font-family: "Antic Slab", serif;
+      }
 
-   
-    
+      #H1 {
+        font-size: 40px;
+      }
+    </style>
 
-<div class="bigbox">
+    <div class="descriere">
+      <img
+        src="./imgs/ggmsl1.jpg"
+        alt=""
+        id="GRIGORE-MOISIL"
+        onclick="schimbare(this)"
+      />
 
-          <h1 id="H1">Divizia noastra:</h1>
+      <div class="divim1">
+        <h1 id="titi">GRIGORE MOISIL</h1>
 
-        <h1 id="H2">"Înaltimile se ating prin stradanie"</h1>
-
+        <p id="pdescmoisil">
+          A fost cel mai important matematician roman, considerat <br />
+          parintele informaticii romanesti. A avut contributii imense <br />
+          la dezvoltarea informaticii si la formarea primelor generatii <br />
+          de informaticieni. I-a fost acordat Computer Pioneer Award <br />
+          al societatii IEEE in iunie 1996 <br />
+        </p>
       </div>
+    </div>
 
-      <style>
+    <style>
+      .descriere {
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+        align-items: center;
+        border: 2px solid;
 
+        position: relative;
+        left: 100px;
+        border-radius: 60px;
 
+        width: 1500px;
+      }
 
-.bigbox{
+      #GRIGORE-MOISIL {
+        border-radius: 60px;
+        cursor: pointer;
+        transition: transform 0.3 ease;
+        margin-top: 40px;
+        margin-bottom: 40px;
+      }
 
-    border: 2px solid;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    border-radius: 60px;
-    margin-top: 110px;
-    margin-bottom: 200px;
-    font-family: "Kanit", sans-serif;
-    width: 700px;
-    position: relative;
-    left: 700px;
+      #GRIGORE-MOISIL:hover {
+        transform: translateY(-10px);
+      }
 
-}
-#H2{
+      #pdescmoisil {
+        line-height: 1.3;
+        margin-right: 40px;
+        font-family: "Antic Slab", serif;
+        font-weight: 800;
+      }
 
-    font-family: "Antic Slab", serif;
-
-}
-
-#H1{
-
-    font-size: 40px;
-}
-
-
-
-
-
- </style>
-
-    
-
-
-
-             <div class="descriere">
-                
-                <img src="./imgs/ggmsl1.jpg" alt="" id="GRIGORE-MOISIL"  onclick="schimbare(this)">
-
-
-                <div class="divim1">
-
-                <h1 id="titi">GRIGORE MOISIL</h1>
-
-                    <p id="pdescmoisil">A fost cel mai important matematician roman, considerat <br> parintele informaticii romanesti. 
-                        
-                        A avut contributii imense <br> la dezvoltarea informaticii si la formarea primelor  generatii <br> de  informaticieni. I-a fost acordat Computer Pioneer Award <br> al  societatii IEEE in iunie 1996 <br>
-                    
-             
-
-            </div>
-
-             </div>
-
-             <style>
-
-
-                .descriere{
-
-                    display: flex;
-                    justify-content: center;
-                    gap: 50px;
-                    align-items: center;
-                    border: 2px solid;
-
-                    position: relative;
-                    left:  100px;
-                    border-radius: 60px;
-
-                    width: 1500px;
-
-
-                }
-
-                #GRIGORE-MOISIL{
-
-                    border-radius: 60px;
-                    cursor: pointer;
-                    transition: transform 0.3 ease;
-                    margin-top: 40px;
-                    margin-bottom: 40px;
-                    
-                }
-
-                #GRIGORE-MOISIL:hover{                    
-                    transform: translateY(-10px);
-
-                }
-
-                #pdescmoisil{
-
-                            line-height: 1.3;
-                            margin-right: 40px;
-                            font-family: "Antic Slab", serif;
-                            font-weight: 800;
-                }
-
-           
-
-                .divim1{
-                    font-family: "Kanit", sans-serif;
-                    font-size: 30px;
-
-                }
-
-
-            </style>
-<!-- 
+      .divim1 {
+        font-family: "Kanit", sans-serif;
+        font-size: 30px;
+      }
+    </style>
+    <!-- 
 
                 
         
@@ -190,195 +161,154 @@
     }
  -->
 
+    <!-- </script> -->
 
-<!-- </script> -->
+    <div class="misiuneascolii">
+      <div class="pui">
+        <h1 id="sc2">Misiunea scolii</h1>
 
+        <h1>
+          Liceul Teoretic "Grigore Moisil" Timişoara are misiunea <br />
+          de a promova excelenţa în educaţie și de a oferi inteligenţa, <br />
+          sensibilitate, responsabilitate şi creativitate, în procesul de <br />
+          pregătire a elevilor pentru toate aspectele vieţii de adult.
+        </h1>
+      </div>
 
-
-<div class="misiuneascolii">
-
-     <div class="pui">
-
-    
-    <h1 id="sc2">Misiunea scolii</h1>
-
-    <h1>Liceul Teoretic "Grigore Moisil" Timişoara are misiunea <br> de  a promova excelenţa în educaţie și de a oferi inteligenţa, <br> sensibilitate, responsabilitate şi creativitate, în procesul de <br> pregătire a elevilor pentru toate aspectele vieţii de adult.</h1>
-
-</div>
-
-    <img src="./imgs/invatare.jpeg" alt="" width="470px" height="447px" id="edu">
-
-</div>
-
-
-<style>
-   
-   .misiuneascolii{
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 2px solid;
-    border-radius: 60px;
-    margin-top: 200px;
-    position: relative;
-    left: 400px;
-    width: 1500px;
-
-   }
-
-   .pui{
-    margin-left: 40px;
-    font-family: "Antic Slab", serif;
-    line-height: 1.3;
-
-   }
-
-   #edu{
-
-    border-radius: 60px;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    margin-right: 40px;
-
-    cursor: pointer;
-     transition: transform 0.3 ease;  
-    
-    
-}
-
-#edu:hover{
-
-
-    transform: translateY(-10px);
-
-
-}
-
-   .antic-slab-regular {
-  font-family: "Antic Slab", serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.kanit-extrabold {
-  font-family: "Kanit", sans-serif;
-  font-weight: 800;
-  font-style: normal;
-}
-
-#sc2{
-
-    font-family: "Kanit", sans-serif;
-    font-size: 50px;
-
-
-}
-
-
-
-</style>
-
-
-
-<div class="mijj">
-
-
-   <img src="./imgs/teamwork.jpg" alt="" id="tm">
-
-   <div class="celmic">
-
-    <h1 id="desc">Viziunea scolii:</h1>
-
-     <h1 id="maimultadesc">Rezultatele obtinute pana acum justifica faptul ca liceul <br> se caracterizeaza printr-o constanta aspiratie spre excelenta, <br> menita  sa asigure o evolutie trainica a personalitatii elevilor, <br> în timpul si dupa absolvirea scolii. <br>
-
-        Ne propunem:  <br>
-        
-        - o scoala de care comunitatea sa fie mandra si pe care <br> aceasta sa o sustina pentru calitatea si prestigiul ei <br>
-        
-        - promovarea unui management eficient al tuturor <br> resurselor prin stimularea lucrului in echipa  <br>
-        
-        - promovarea performantei scolare</h1>
-
+      <img
+        src="./imgs/invatare.jpeg"
+        alt=""
+        width="470px"
+        height="447px"
+        id="edu"
+      />
     </div>
-</div>
 
+    <style>
+      .misiuneascolii {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid;
+        border-radius: 60px;
+        margin-top: 200px;
+        position: relative;
+        left: 400px;
+        width: 1500px;
+      }
 
-<style>
-   
+      .pui {
+        margin-left: 40px;
+        font-family: "Antic Slab", serif;
+        line-height: 1.3;
+      }
 
-   .mijj{
+      #edu {
+        border-radius: 60px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        margin-right: 40px;
 
-    border: 2px solid;
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    gap: 2rem;
-    margin-top: 200px;
-    border-radius: 60px;
-    width: 1800px;
-    margin-left: 100px;
-   }
+        cursor: pointer;
+        transition: transform 0.3 ease;
+      }
 
-   .celmic{
+      #edu:hover {
+        transform: translateY(-10px);
+      }
 
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-   }
+      .antic-slab-regular {
+        font-family: "Antic Slab", serif;
+        font-weight: 400;
+        font-style: normal;
+      }
 
-   #tm{
+      .kanit-extrabold {
+        font-family: "Kanit", sans-serif;
+        font-weight: 800;
+        font-style: normal;
+      }
 
-border-radius: 60px;
-margin-top: 40px;
-    margin-bottom: 40px;
-    margin-right: 40px;
-    transition: transform 0.3 ease;  
-    cursor: pointer;
-    
+      #sc2 {
+        font-family: "Kanit", sans-serif;
+        font-size: 50px;
+      }
+    </style>
 
-   }
+    <div class="mijj">
+      <img src="./imgs/teamwork.jpg" alt="" id="tm" />
 
+      <div class="celmic">
+        <h1 id="desc">Viziunea scolii:</h1>
 
-   #tm:hover{
+        <h1 id="maimultadesc">
+          Rezultatele obtinute pana acum justifica faptul ca liceul <br />
+          se caracterizeaza printr-o constanta aspiratie spre excelenta, <br />
+          menita sa asigure o evolutie trainica a personalitatii elevilor,
+          <br />
+          în timpul si dupa absolvirea scolii. <br />
 
-    transform: translateY(-10px);
+          Ne propunem: <br />
 
+          - o scoala de care comunitatea sa fie mandra si pe care <br />
+          aceasta sa o sustina pentru calitatea si prestigiul ei <br />
 
-   }
+          - promovarea unui management eficient al tuturor <br />
+          resurselor prin stimularea lucrului in echipa <br />
 
-   #desc{
+          - promovarea performantei scolare
+        </h1>
+      </div>
+    </div>
 
-    font-family: "Kanit", sans-serif;
+    <style>
+      .mijj {
+        border: 2px solid;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        gap: 2rem;
+        margin-top: 200px;
+        border-radius: 60px;
+        width: 1800px;
+        margin-left: 100px;
+      }
 
-    font-size: 50px;
+      .celmic {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+      }
 
-    margin-top: 40px;
+      #tm {
+        border-radius: 60px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        margin-right: 40px;
+        transition: transform 0.3 ease;
+        cursor: pointer;
+      }
 
+      #tm:hover {
+        transform: translateY(-10px);
+      }
 
-   }
+      #desc {
+        font-family: "Kanit", sans-serif;
 
+        font-size: 50px;
 
-   #maimultadesc{
+        margin-top: 40px;
+      }
 
-    font-family: "Antic Slab", serif;
-  font-weight: 800;
-  font-style: normal;
-  line-height: 1.4;
-  margin-right: 40px;
-   margin-bottom: 50px;   }
-
-
-</style>
-
-
-
-
-
-      
-      
-
-
-    
-</body>
+      #maimultadesc {
+        font-family: "Antic Slab", serif;
+        font-weight: 800;
+        font-style: normal;
+        line-height: 1.4;
+        margin-right: 40px;
+        margin-bottom: 50px;
+      }
+    </style>
+  </body>
 </html>
