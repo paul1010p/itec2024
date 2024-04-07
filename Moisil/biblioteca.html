@@ -1,259 +1,196 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Bree+Serif&family=Lora:ital,wght@0,661;1,661&display=swap"
+      rel="stylesheet" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Bree+Serif&family=Lora:ital,wght@0,661;1,661&display=swap" rel="stylesheet">
-    
-    
-    <link rel="stylesheet" href="acasa.css">
-    <link rel="stylesheet" href="biblioteca.css">
+    <link rel="stylesheet" href="acasa.css" />
+    <link rel="stylesheet" href="biblioteca.css" />
 
     <script src="carti.js"></script>
 
-    
-
-      
     <ul>
-        <img src="./imgs/idee.png" width="260px" height="59px" alt="">        
-        <li class="mm"><a href="contact.html">Contacteaza-ne</a></li>
-        <li class="mm"><a href="desprenoi.html">Despre noi</a></li>
-         <li class="mm"><a href="galerie.html">Galerie foto</a></li> 
-        <li class="mm"><a href="biblioteca.html">Biblioteca</a></li>
-        <li class="mm"><a href="orar2024.html">Orare 2024</a></li>
-        <li class="mm"><a  href="acasa.html">Acasa</a></li>
-      </ul>
+      <img src="./imgs/idee.png" width="260px" height="59px" alt="" />
+      <li class="mm"><a href="contact.html">Contacteaza-ne</a></li>
+      <li class="mm"><a href="desprenoi.html">Despre noi</a></li>
+      <li class="mm"><a href="galerie.html">Galerie foto</a></li>
+      <li class="mm"><a href="biblioteca.html">Biblioteca</a></li>
+      <li class="mm"><a href="orar2024.html">Orare 2024</a></li>
+      <li class="mm"><a href="acasa.html">Acasa</a></li>
+    </ul>
 
+    <h1 id="biblioteca">Biblioteca</h1>
 
-     <h1 id="biblioteca">Biblioteca</h1>
+    <div class="r1">
+      <div class="box">
+        <img
+          src="./imgs/ion.jpg"
+          alt=""
+          class="imgx1"
+          width="300px"
+          height="450px" />
 
+        <h1 class="titlacarti">Ion</h1>
 
+        <button class="btn" id="rezervaBtn1" onclick="rezervat('rezervaBtn1')">
+          Rezerva
+        </button>
+      </div>
 
+      <div class="box">
+        <img
+          src="./imgs/mara.jfif"
+          alt=""
+          class="imgx1"
+          width="300px"
+          height="450px" />
 
+        <h1 class="titlacarti">Mara</h1>
 
-<div class="r1">
+        <button class="btn" id="rezervaBtn2" onclick="rezervat('rezervaBtn2')">
+          Rezerva
+        </button>
+      </div>
 
+      <div class="box">
+        <img
+          src="./imgs/baltagul.jfif"
+          alt=""
+          class="imgx1"
+          width="300px"
+          height="450px" />
 
+        <h1 class="titlacarti">Baltagul</h1>
 
-     <div class="box">
-
-       <img src="./imgs/ion.jpg" alt="" class="imgx1" width="300px" height="450px">
-
-       <h1 class="titlacarti">Ion</h1>
-
-       <button class="btn" id="rezervaBtn1" onclick="rezervat('rezervaBtn1')">
-        Rezerva
-      </button>
-      
-
-     </div>
-
-
-
-
-     <div class="box">
-
-      <img src="./imgs/mara.jfif" alt="" class="imgx1" width="300px" height="450px">
-
-      <h1 class="titlacarti">Mara</h1>
- 
-      <button class="btn" id="rezervaBtn2" onclick="rezervat('rezervaBtn2')">
-        Rezerva
-      </button>
-
-  
+        <button class="btn" id="rezervaBtn3" onclick="rezervat('rezervaBtn3')">
+          Rezerva
+        </button>
+      </div>
     </div>
 
-
-
-
-
-    <div class="box">
-
-      <img src="./imgs/baltagul.jfif" alt="" class="imgx1" width="300px" height="450px">
-
-      <h1 class="titlacarti">Baltagul</h1>
- 
-      
-      <button class="btn" id="rezervaBtn3" onclick="rezervat('rezervaBtn3')">
-        Rezerva
-      </button>
-
-    </div> 
- 
-
-
-
-
-  </div>
-
-<!-- ////////////////////////////////////////////////////////////////////// -->
-
-
-
-   <div class="r1">
-
-
-    <div class="box">
-
-      <img src="./imgs/hp.jfif" alt="" class="imgx1" width="300px" height="450px">
-
-      <h1 class="titlacarti">Harap-Alb</h1>
- 
-      <button class="btn" id="rezervaBtn4" onclick="rezervat('rezervaBtn4')">
-        Rezerva
-      </button>
-
-    </div> 
- 
-
-  
-
-
-
-
-    <div class="box">
-
-     <img src="./imgs/oscprdt.jfif" alt="" class="imgx1" width="300px" height="450px">
-
-     <h1 class="titlacarti">O scrisoare pierduta</h1>
-
-     <button class="btn" id="rezervaBtn5" onclick="rezervat('rezervaBtn5')">
-      Rezerva
-    </button>
-
-  </div> 
-
-
- 
-
-
-
-
-
-   <div class="box">
-
-     <img src="./imgs/morometii.jfif" alt="" class="imgx1" width="300px" height="450px">
-
-     <h1 class="titlacarti">Morometii</h1>
-
-     <button class="btn" id="rezervaBtn6" onclick="rezervat('rezervaBtn6')">
-      Rezerva
-    </button>
-
-  </div> 
-
-
-   </div> 
-
-
-
-
-
-
-<!-- ////////////////////////////////////////////////////////////////////// -->
-
-
-
-
-   <div class="r1">
-
-
-    
-    <div class="box">
-
-      <img src="./imgs/onp.jfif" alt="" class="imgx1" width="300px" height="450px">
-
-      <h1 class="titlacarti">O noapte furtunoasa</h1>
- 
-      <button class="btn" id="rezervaBtn7" onclick="rezervat('rezervaBtn7')">
-        Rezerva
-      </button>
-
-    </div> 
- 
-
-
-
-
-
-    <div class="box">
-
-     <img src="./imgs/otilia.jfif" alt="" class="imgx1" width="300px" height="450px">
-
-     <h1 class="titlacarti">Enigma Otiliei</h1>
-
-     <button class="btn" id="rezervaBtn8" onclick="rezervat('rezervaBtn8')">
-      Rezerva
-    </button>
-
-  </div> 
-
-
-
-
-
-
-
-
-   <div class="box">
-
-     <img src="./imgs/luceafarul.jfif" alt="" class="imgx1" width="300px" height="450px">
-
-     <h1 class="titlacarti">Luceafarul</h1>
-
-     <button class="btn" id="rezervaBtn9" onclick="rezervat('rezervaBtn3')">
-      Rezerva
-    </button>
-
-  </div> 
-
-
-   </div> 
-
-
-
-
-   </div>
-
-    
-
-
-
-
-
-
-
-     <style>
-
-
-#biblioteca{
-
-  text-align: center;
-  font-family: "Bebas Neue", sans-serif;
-  font-size: 50px;
-  margin-top: 70px;
-
-}
-
-
-.imgx1{
-
-margin-right: 30px;
-margin-bottom: 7px;
-   }
-
-
-
-      .box{
-
+    <!-- ////////////////////////////////////////////////////////////////////// -->
+
+    <div class="r1">
+      <div class="box">
+        <img
+          src="./imgs/hp.jfif"
+          alt=""
+          class="imgx1"
+          width="300px"
+          height="450px" />
+
+        <h1 class="titlacarti">Harap-Alb</h1>
+
+        <button class="btn" id="rezervaBtn4" onclick="rezervat('rezervaBtn4')">
+          Rezerva
+        </button>
+      </div>
+
+      <div class="box">
+        <img
+          src="./imgs/oscprdt.jfif"
+          alt=""
+          class="imgx1"
+          width="300px"
+          height="450px" />
+
+        <h1 class="titlacarti">O scrisoare pierduta</h1>
+
+        <button class="btn" id="rezervaBtn5" onclick="rezervat('rezervaBtn5')">
+          Rezerva
+        </button>
+      </div>
+
+      <div class="box">
+        <img
+          src="./imgs/morometii.jfif"
+          alt=""
+          class="imgx1"
+          width="300px"
+          height="450px" />
+
+        <h1 class="titlacarti">Morometii</h1>
+
+        <button class="btn" id="rezervaBtn6" onclick="rezervat('rezervaBtn6')">
+          Rezerva
+        </button>
+      </div>
+    </div>
+
+    <!-- ////////////////////////////////////////////////////////////////////// -->
+
+    <div class="r1">
+      <div class="box">
+        <img
+          src="./imgs/onp.jfif"
+          alt=""
+          class="imgx1"
+          width="300px"
+          height="450px" />
+
+        <h1 class="titlacarti">O noapte furtunoasa</h1>
+
+        <button class="btn" id="rezervaBtn7" onclick="rezervat('rezervaBtn7')">
+          Rezerva
+        </button>
+      </div>
+
+      <div class="box">
+        <img
+          src="./imgs/otilia.jfif"
+          alt=""
+          class="imgx1"
+          width="300px"
+          height="450px" />
+
+        <h1 class="titlacarti">Enigma Otiliei</h1>
+
+        <button class="btn" id="rezervaBtn8" onclick="rezervat('rezervaBtn8')">
+          Rezerva
+        </button>
+      </div>
+
+      <div class="box">
+        <img
+          src="./imgs/luceafarul.jfif"
+          alt=""
+          class="imgx1"
+          width="300px"
+          height="450px" />
+
+        <h1 class="titlacarti">Luceafarul</h1>
+
+        <button class="btn" id="rezervaBtn9" onclick="rezervat('rezervaBtn3')">
+          Rezerva
+        </button>
+      </div>
+    </div>
+
+    <style>
+      #biblioteca {
+        text-align: center;
+        font-family: "Bebas Neue", sans-serif;
+        font-size: 50px;
+        margin-top: 70px;
+      }
+
+      .imgx1 {
+        margin-right: 30px;
+        margin-bottom: 7px;
+      }
+
+      .box {
         border: 2px solid;
         width: 400px;
         display: flex;
@@ -262,36 +199,21 @@ margin-bottom: 7px;
         align-items: center;
         padding: 40px;
         border-radius: 60px;
-
-      
+        background-color: white;
       }
 
-      .r1{
-
+      .r1 {
         display: flex;
         justify-content: space-around;
         flex-direction: row;
         align-items: center;
         margin-top: 80px;
-       
-
-
       }
 
-      .titlacarti{
-
-
+      .titlacarti {
         font-family: "Kanit", sans-serif;
         font-weight: 900;
-
       }
-
-    
-
-
-     </style>
-    
-
-    
-</body>
+    </style>
+  </body>
 </html>
