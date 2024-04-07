@@ -1,6 +1,7 @@
 
   
   .container2 {
+    
   width: 500px;
   margin: 50px auto;
   background-color: #fff;
@@ -21,6 +22,10 @@
 right: 1410px;
 
 
+}
+
+.container2:input{
+    box-shadow: 12px 5px 15px rgba(0, 0, 0, 0.301);
 }
 
 button {
@@ -163,14 +168,52 @@ header h1 {
 
 }
 
-input{
 
-  box-shadow: 12px 5px 15px rgba(0, 0, 0, 0.301);
-
-}
 body {
   background-image: url("imgs/fund.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
   background-size: cover; }
+
+
+  .search1{
+
+    width: max-content;
+    display: flex;
+    align-items: center;
+    padding: 14px;
+    border-radius: 28px;
+    background: #f6f6f6;
+    transition: 0.25s;
+  
+    margin-top: 20px;
+  
+    position: absolute;
+    left: 450px;
+    bottom: 930px;
+  }
+  
+  .search1:focus-within{
+    box-shadow: 0 0 2px rgba(0,0,0,0.75);
+  }
+  
+  .search1-input {
+  
+    font-size: 16px;
+    font-family: "Kanit", sans-serif;
+    color: #333333;
+    margin-left: 14px;
+    outline: none;
+    border: none;
+    background: transparent;
+    width: 400px;
+  }
+  
+  .search-input::placeholder{
+  
+    color: rgba(0,0,0,0.5);
+  }
+  
+  
+  
