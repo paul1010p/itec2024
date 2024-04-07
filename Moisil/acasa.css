@@ -14,7 +14,7 @@ body {
 } */
 
 .layout {
-  background-image: url("./imgs/smec.jpg");
+  background-image: url("./imgs/study-7217599_1280.jpg");
   height: 1000px;
   background-position: center;
   background-repeat: no-repeat;
@@ -96,3 +96,45 @@ img {
   opacity: 1;
   width: 1870px;
 }
+
+
+.search{
+
+  width: max-content;
+  display: flex;
+  align-items: center;
+  padding: 14px;
+  border-radius: 28px;
+  background: #f6f6f6;
+  transition: 0.25s;
+
+  margin-top: 20px;
+
+  position: absolute;
+  left: 450px;
+  bottom: 930px;
+  /* cursor: pointer; */
+}
+
+.search:focus-within{
+  box-shadow: 0 0 2px rgba(0,0,0,0.75);
+}
+
+.search-input {
+
+  font-size: 16px;
+  font-family: "Kanit", sans-serif;
+  color: #333333;
+  margin-left: 14px;
+  outline: none;
+  border: none;
+  background: transparent;
+  width: 400px;
+}
+
+.search-input::placeholder{
+
+  color: rgba(0,0,0,0.5);
+}
+
+
