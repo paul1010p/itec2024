@@ -16,11 +16,12 @@
     <link rel="stylesheet" href="acasa.css">
     <link rel="stylesheet" href="biblioteca.css">
 
+    <script src="carti.js"></script>
+
+    
 
       
     <ul>
-       
-
         <img src="./imgs/idee.png" width="260px" height="59px" alt="">        
         <li class="mm"><a href="contact.html">Contacteaza-ne</a></li>
         <li class="mm"><a href="desprenoi.html">Despre noi</a></li>
@@ -29,96 +30,267 @@
         <li class="mm"><a href="orar2024.html">Orare 2024</a></li>
         <li class="mm"><a  href="acasa.html">Acasa</a></li>
       </ul>
-     <center> <h1 class="title">Biblioteca</h1></center>
-      <br>
-      <br>
-    
-      <div class="container">
-        <div class="wrapper">
-          <div class="produs">
-            
-            <h3>Antrenament tennis</h3>
-            <img src="./poze/ptenis.jpg" />
-            <p>Preț: 115 Ron/Oră</p>
-            
-            <button><a href="./tenis.html">Vizualizare antrenament</a></button>
-            
-          </div>
-          <div class="produs">
-            <h3>Antrenament Fotbal</h3>
-            <img src="./poze/pfotbal.jpeg" />
-            <p>Preț: 115 Ron/Oră</p>
-            
-            <button><a href="./fotbal.html">Vizualizare antrenament</a></button>
-            
-          </div>
-          <div class="produs">
-            <h3>Antrenament American</h3>
-            <img src="./poze/pfotbalamerican.avif" />
-            <p>Preț: 115 Ron/Oră</p>
-            
-            <button><a href="./fotbalamerican.html">Vizualizare antrenament</a></button>
-           
-          </div>
-          <div class="produs">
-            <h3>Antrenament Gimnastica</h3>
-            <img src="./poze/pgimnastica.avif" />
-            <p>Preț: 115 Ron/Oră</p>
-            
-            <button><a href="./gimnastica.html">Vizualizare antrenament</a></button>
-            
-          </div>
-          <div class="produs">
-            <h3>Antrenament Box</h3>
-            <img src="./poze/pbox.avif" />
-            <p>Preț: 115 Ron/Oră</p>
-            
-            <button><a href="./box.html">Vizualizare antrenament</a></button>
-            
-          </div>
-          <div class="produs">
-            <h3>Antrenament Baschet</h3>
-            <img src="./poze/pbasket.avif" />
-            <p>Preț: 115 Ron/Oră</p>
-           
-            <button><a href="./baschet.html">Vizualizare antrenament</a></button>
-            
-          </div>
-          <div class="produs">
-            <h3>Antrenament Rudgby</h3>
-            <img src="./poze/prudgby.webp" />
-            <p>Preț: 115 Ron/Oră</p>
-            
-            <button><a href="./rudgby.html">Vizualizare antrenament</a></button>
-            
-          </div>
-          <div class="produs">
-            <h3>Antrenament Handbal</h3>
-            <img src="./poze/phanball.webp" />
-            <p>Preț: 115 Ron/Oră</p>
-            
-            <button><a href="./handbal.html">Vizualizare antrenament</a></button>
-            
-          </div>
-          <div class="produs">
-            <h3>Antrenament Sala</h3>
-            <img src="./poze/psala.avif" />
-            <p>Preț: 115 Ron/Oră</p>
-           
-            <button><a href="./sala.html">Vizualizare antrenament</a></button>
-            
-          </div>
-          <div class="produs">
-            <h3>Antrenament Volei</h3>
-            <img src="./poze/pvolei.jpg" />
-            <p>Preț: 115 Ron/Oră</p>
-            
-            <button><a href="./volei.html">Vizualizare antrenament</a></button>
-            
-          </div>
-        </div>
-      </div>
+
+
+     <h1 id="biblioteca">Biblioteca</h1>
+
+
+
+
+
+<div class="r1">
+
+
+
+     <div class="box">
+
+       <img src="./imgs/ion.jpg" alt="" class="imgx1" width="300px" height="450px">
+
+       <h1 class="titlacarti">Ion</h1>
+
+       <button class="btn" id="rezervaBtn1" onclick="rezervat('rezervaBtn1')">
+        Rezerva
+      </button>
+      
+
+     </div>
+
+
+
+
+     <div class="box">
+
+      <img src="./imgs/mara.jfif" alt="" class="imgx1" width="300px" height="450px">
+
+      <h1 class="titlacarti">Mara</h1>
+ 
+      <button class="btn" id="rezervaBtn2" onclick="rezervat('rezervaBtn2')">
+        Rezerva
+      </button>
+
   
+    </div>
+
+
+
+
+
+    <div class="box">
+
+      <img src="./imgs/baltagul.jfif" alt="" class="imgx1" width="300px" height="450px">
+
+      <h1 class="titlacarti">Baltagul</h1>
+ 
+      
+      <button class="btn" id="rezervaBtn3" onclick="rezervat('rezervaBtn3')">
+        Rezerva
+      </button>
+
+    </div> 
+ 
+
+
+
+
+  </div>
+
+<!-- ////////////////////////////////////////////////////////////////////// -->
+
+
+
+   <div class="r1">
+
+
+    <div class="box">
+
+      <img src="./imgs/hp.jfif" alt="" class="imgx1" width="300px" height="450px">
+
+      <h1 class="titlacarti">Harap-Alb</h1>
+ 
+      <button class="btn" id="rezervaBtn4" onclick="rezervat('rezervaBtn4')">
+        Rezerva
+      </button>
+
+    </div> 
+ 
+
+  
+
+
+
+
+    <div class="box">
+
+     <img src="./imgs/oscprdt.jfif" alt="" class="imgx1" width="300px" height="450px">
+
+     <h1 class="titlacarti">O scrisoare pierduta</h1>
+
+     <button class="btn" id="rezervaBtn5" onclick="rezervat('rezervaBtn5')">
+      Rezerva
+    </button>
+
+  </div> 
+
+
+ 
+
+
+
+
+
+   <div class="box">
+
+     <img src="./imgs/morometii.jfif" alt="" class="imgx1" width="300px" height="450px">
+
+     <h1 class="titlacarti">Morometii</h1>
+
+     <button class="btn" id="rezervaBtn6" onclick="rezervat('rezervaBtn6')">
+      Rezerva
+    </button>
+
+  </div> 
+
+
+   </div> 
+
+
+
+
+
+
+<!-- ////////////////////////////////////////////////////////////////////// -->
+
+
+
+
+   <div class="r1">
+
+
+    
+    <div class="box">
+
+      <img src="./imgs/onp.jfif" alt="" class="imgx1" width="300px" height="450px">
+
+      <h1 class="titlacarti">O noapte furtunoasa</h1>
+ 
+      <button class="btn" id="rezervaBtn7" onclick="rezervat('rezervaBtn7')">
+        Rezerva
+      </button>
+
+    </div> 
+ 
+
+
+
+
+
+    <div class="box">
+
+     <img src="./imgs/otilia.jfif" alt="" class="imgx1" width="300px" height="450px">
+
+     <h1 class="titlacarti">Enigma Otiliei</h1>
+
+     <button class="btn" id="rezervaBtn8" onclick="rezervat('rezervaBtn8')">
+      Rezerva
+    </button>
+
+  </div> 
+
+
+
+
+
+
+
+
+   <div class="box">
+
+     <img src="./imgs/luceafarul.jfif" alt="" class="imgx1" width="300px" height="450px">
+
+     <h1 class="titlacarti">Luceafarul</h1>
+
+     <button class="btn" id="rezervaBtn9" onclick="rezervat('rezervaBtn3')">
+      Rezerva
+    </button>
+
+  </div> 
+
+
+   </div> 
+
+
+
+
+   </div>
+
+    
+
+
+
+
+
+
+
+     <style>
+
+
+#biblioteca{
+
+  text-align: center;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 50px;
+  margin-top: 70px;
+
+}
+
+
+.imgx1{
+
+margin-right: 30px;
+margin-bottom: 7px;
+   }
+
+
+
+      .box{
+
+        border: 2px solid;
+        width: 400px;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+        padding: 40px;
+        border-radius: 60px;
+
+      
+      }
+
+      .r1{
+
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        align-items: center;
+        margin-top: 80px;
+       
+
+
+      }
+
+      .titlacarti{
+
+
+        font-family: "Kanit", sans-serif;
+        font-weight: 900;
+
+      }
+
+    
+
+
+     </style>
+    
 
     
 </body>
